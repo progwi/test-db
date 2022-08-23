@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "a292bf9b-1565-4fbb-aeab-d7400311a047",
+    "colId": "920d3cda-1501-4ed3-9cb8-e1bb3eb43550",
+    "containerId": "",
+    "name": "list",
+    "url": "{{root}}/users",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-23T00:38:53.607Z",
+    "modified": "2022-08-23T00:39:52.344Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b0c3b9ce-644a-4b75-b2be-81fcb1f6c2b2",
+    "colId": "920d3cda-1501-4ed3-9cb8-e1bb3eb43550",
+    "containerId": "",
+    "name": "create",
+    "url": "{{root}}/users",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-23T00:40:08.107Z",
+    "modified": "2022-08-23T00:43:46.726Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"eormeno\",\n  \"firstname\": \"Emilio Gustavo\",\n  \"lastname\": \"Ormeño\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
